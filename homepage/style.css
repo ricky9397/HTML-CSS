@@ -8,6 +8,14 @@
     color: black;
 }
 
+h1{
+    font-size: 48px;
+    font-weight: 100;
+}
+.contents1{
+    font-size: 20px;
+    font-weight: lighter;
+}
 .intro_bg{
     background-image:url("image/intro.png");
     width: 100%;
@@ -20,7 +28,7 @@
     margin: auto;
     height: 86px;
 }
-.searchArea{
+.search_area{
     width: 300px;
     height: 40px;
     background: rgba(0,0,0,0.5);
@@ -28,7 +36,7 @@
     margin-top: 24px;
 }
 
-.searchArea > form > input{
+.search_area > form > input{
     border:none;
     width: 250px;
     height: 40px;
@@ -37,7 +45,7 @@
     padding-left: 10px;
 }
 
-.searchArea > form > span{
+.search_area > form > span{
     width: 50px;
     color: #fff;
     font-weight: bold;
@@ -56,5 +64,16 @@
 }
 
 .nav > li > a{
+    color: #fff;
+}
+
+.intro_text{
+    width: 100%;
+    margin: 213px auto 231px auto;
+    text-align: center;
+}
+
+.intro_text > h1,
+.intro_text > h4{
     color: #fff;
 }
