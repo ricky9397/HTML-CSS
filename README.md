@@ -60,17 +60,7 @@ ___
 [참조명]: 링크 주소
  
 
-9. 이미지 추가하기
-
-![텍스트](이미지링크)
-
-tip) 이미지 크기 조절
-<img src="이미지 링크" width="너비 " height="높이">
-
-ex)
-<img src="https://user-images.githubusercontent.com/31477658/85016059-f962aa80-b1a3-11ea-8c91-dacba2666b78.jpeg" width="700" height="370">
-
-tip2) Github README.md에 이미지 추가 (하단 참조) 
+![image](https://user-images.githubusercontent.com/84554175/123606499-e911f080-d837-11eb-95bc-d2674e5d5c2e.png)
  
 
 10. 코드 블록 추가하기
