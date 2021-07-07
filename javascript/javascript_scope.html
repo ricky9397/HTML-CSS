@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /* 지역변수(local), 전역변수(global) */
+        var vscope = 'global';
+        function fscope(){
+            var vscope = 'local';
+            console.log(vscope);
+        }
+        fscope();
+        
+        var sor = function(){
+            var numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+            var sortfunc = function(a, b){
+                // return a-b; /* 내림차순 */
+                return b-a; /* 오름차순 */
+                // if(a > b){
+                //     return 1; /* 양수 */
+                // } else if(a < b){
+                //     return -1; /* 음수 */
+                // } else {
+                //     return 0; /* 0 */
+                // }
+            }
+            /* sortfunc 콜백함수 */
+            /* sort오리지널 함수의 동작방법을 sortfunc함수를 통해 완전히 변경할수 있는 것을 콜백 */
+            console.log(numbers.sort(sortfunc));
+        }
+        sor();
+
+
+        /* @외부함수와 내부함수 */
+
+        /* outter 외부함수 */
+        function outter(){
+            var title = 'hello';
+
+            /* inner 내부함수  */
+            /* 내부함수의 정의가없으면 외부함수의 정의된 title을 찾아 불러온다. */
+            function inner(){
+                console.log(title);
+            }
+            inner();
+
+        }
+        outter();
+
+
+        /* @클로저 */
+        function outter(){
+            var title = 'hi';
+            return function(){
+                console.log(title);
+            }
+        }
+        inner = outter();
+        inner();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
