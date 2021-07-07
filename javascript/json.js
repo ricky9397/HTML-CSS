@@ -17,7 +17,6 @@ const rabbit = {
     jump: () => {
         console.log('${name} can jump!');
     },
-
 }
 
 // 2. JSON to Object
