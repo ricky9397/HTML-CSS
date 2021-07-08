@@ -63,7 +63,8 @@ a{
 
 .intro_img{
     width: 100%;
-    height: 600px;
+    height: 630px;
+    margin-bottom: ;
 }
 
 .footer_menu{
@@ -71,6 +72,12 @@ a{
     color: black;
     justify-content: space-around;
     list-style: none;
+    align-items: center;
+    margin-top: 0;
+}
+
+.footer_menu li{
+    padding: 8px 12px;
 }
 
 @media screen and (max-width: 768px){
