@@ -1,0 +1,16 @@
+.chatlist{
+    width: 1000px;
+    background-color: aquamarine;
+}
+img{
+    width: 100px;
+    padding: 20px;
+}
+
+.inline1{
+    display: inline-block;
+}
+
+.carry_name{
+    margin-left: 20px;
+}
