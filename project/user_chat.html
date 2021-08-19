@@ -7,13 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="user_chat.css">
-
+    <link rel="stylesheet" href="index/index.css">
+    <link rel="stylesheet" href="index/style.css">
+    <script src="../project/index/includeHTML.js"></script>
+    <script src="../project/index/includeRouter.js"></script>
 </head>
 
 <body>
-    <div id="chatwarp">
-        
+        <!-- Header -->
+        <header include-html="../project/index/header.html"></header>
+        <!-- Header End -->
+    
 
+
+    <div id="chatwarp">
         <nav class="chat_ul">
             <div class="chatid">
                 <h3>접속자 아이디</h3>
@@ -182,7 +189,25 @@
         </div>
     </div>
 
+<!-- Footer -->
+<header include-html="../project/index/footer.html"></header>
 
+
+    <script>
+        function getDirection() {
+          var windowWidth = window.innerWidth;
+          var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+    
+          return direction;
+    
+    
+        }
+        includeHTML(function () {
+          includeRouter(function () {
+            // do something in the future
+          });
+        });
+    </script>
 </body>
 
 </html>
