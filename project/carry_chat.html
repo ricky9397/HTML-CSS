@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="user_chat.css">
+
+</head>
+
+<body>
+    <div id="chatwarp">
+        
+
+        <nav class="chat_ul">
+            <div class="chatid">
+                <h3>캐리 접속자 아이디</h3>
+            </div>
+            <ul>
+                <!-- 뒤로가기버튼 채팅창열릴때마다 캐리 이름나오게 value값 넣기 -->
+                <li class="back_button"><input type="button" value="홍길순"></li>
+                <li class="order_button"><a href="#"><img src="../img/movie.png" style="width: 40px;"></a></button></li>
+            </ul>
+        </nav>
+
+
+        <div id="chatlist_wrap">
+            <!-- 채팅방 리스트 시작 -->
+
+            <div class="chatlist">
+                <a href="#">
+                    <div class="float_left">
+                        <img src="../img/프로필사진1.png">
+                    </div>
+                    <div class="float_left chat_name">
+                        <h3>홍길순</h3>
+                    </div>
+                    <div class="chat_content">
+                        <p>안녕하세요 문의입니다.</p>
+                    </div>
+                    <div class="chat_date">
+                        <span>10:56AM</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- 채팅방 리스트 끝 -->
+
+
+            <!-- 임의로 하나더 만듬! 나중에필요없음! -->
+            <div class="chatlist">
+                <a href="#">
+                    <div class="float_left">
+                        <img src="../img/프로필사진1.png">
+                    </div>
+                    <div class="float_left chat_name">
+                        <h3>홍길동</h3>
+                    </div>
+                    <div class="chat_content">
+                        <p>저기요~ 문의좀요</p>
+                    </div>
+                    <div class="chat_date">
+                        <span>12:46PM</span>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+
+        <div id="chatcontent_warp">
+            <div class="chatting_content">
+            <!-- 대화창시작 -->
+            <!-- 헬창들 -->
+                <div class="carry_message">
+                    <div class="carry_line">
+                        <img src="../img/프로필사진1.png">
+                    </div>
+                    <div class="carry_chat">
+                        <div class="message">
+                            <div>
+                                <span>안녕하세요. 문의입니다..</span>
+                            </div>
+                        </div>
+                        <div class="time_line">
+                            <span>10:53AM</span>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- 손님  -->
+                <div class="user_message_warp">
+                    <div class="user_chat">
+                        <div class="user_message">
+                            <div>
+                                <span>네 안녕하세요. 짐캐리입니다.</span>
+                            </div>
+                        </div>
+                        <div class="time_line2">
+                            <span>10:56AM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatting_write">
+                <input type="text" placeholder="메세지 입력..">
+                <button type="submit" class="btn"><img src="../img/icoin.png"></button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
