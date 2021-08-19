@@ -286,3 +286,12 @@
 .chatting_write .btn > img {
     padding:0;
 }
+
+.not_message{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.not_message h3{
+    color: cornflowerblue;
+}
