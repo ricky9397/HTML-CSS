@@ -2,8 +2,8 @@
     width: 1285px;
     height: 800px;
     margin: 0px auto;
-    margin-top: 80px;
-    padding-top:100px
+    margin-top: 100px;
+    padding-top: 100px
 }
 
 #chatlist_wrap{
@@ -27,11 +27,9 @@
     float: left;
     
 }
-
 .chatid h3{
-    margin-top: 30px;
+    margin-top: 25px;
 }
-
 .chatlist{
     width: 390px;
     height: 100px;
@@ -43,15 +41,19 @@
     text-decoration: none;
 }
 .float_left img{
-    padding: 20px;
+    width: 85px;
+    padding: 15px;
 }
+
+
+
 .float_left{
     float: left;
 }
 .chat_name{
-    height: 10px;
-    padding-top: 5px;
-    margin-right: 10px;
+    width: 17%;
+    height: 50%;
+    padding-top: 23px;
 }
 .chat_title{
     padding-top: 25px;
@@ -59,12 +61,21 @@
     color: rgb(119, 117, 117);
 }
 .chat_content{
-    padding-top: 35px;
+    padding-top: 50px;
     color: rgb(119, 117, 117);
 }
+
+.chat_content span{
+    display:inline-block; 
+    width:200px; 
+    overflow:hidden; 
+    text-overflow:ellipsis; 
+    white-space:nowrap;
+}
+
 .chat_date{
     float: right;
-    margin: -25px 20px;
+    margin: -10px 20px;
     font-size: 13px;
     color: rgb(119, 117, 117);
 }
@@ -76,21 +87,16 @@
     border: 2px solid #000;
     float: right;
 }
-ul li{
+
+.chat_ul li{
     float: left;
     list-style: none;
-}
-
-
-
-.order_button{
-    float: right;
-    margin-right: 20px;
+    margin-top: 20px;
 }
 
 #chatcontent_warp{
-    width: 839px;
-    height: 640px;
+    width: 843px;
+    height: 600px;
     border: 2px solid #000;
     border-top: none;
     border-left: none;
@@ -99,12 +105,14 @@ ul li{
 }
 #chatcontent_warp .chatting_content {
     width:100%;
-    height:90%;
+    height: 89%;
     overflow-x:hidden; 
     overflow-y:auto; 
 }
 
 .chat_ul img{
+    margin-right: 30px;
+    margin-top: 5px;
     
 }
 
@@ -119,6 +127,12 @@ ul li{
     font-size: 16px;
     border-radius: 5px;
     margin: 0px 40px;
+    margin-right: 70px;
+}
+
+.order_button{
+    position: absolute;
+    margin-left: 1100px;
 }
 .order_button input[type="button"]{
     background-color: #333333;
@@ -132,7 +146,6 @@ ul li{
     border-radius: 5px;
 }
 
-
 .back_button:hover input, .order_button:hover input{
     cursor: pointer;
     color: black;
@@ -145,6 +158,7 @@ ul li{
 
 .carry_line{
     float: left;
+    padding: 20px;
 }
 
 .carry_chat{
@@ -152,13 +166,22 @@ ul li{
     margin-right: 70px;
     width: 60%;
 }
+.carry_message span{
+    color: white;
+}
 
 .time_line{
     position: absolute;
     bottom: 20px;
     right: 0;
+    margin-right: 45px;
 }
-
+.time_line span{
+    color: rgb(109, 108, 108);
+}
+.time_line2 span{
+    color: rgb(109, 108, 108);
+}
 .message {
     position:relative;
     margin: 20px 5px;
@@ -225,8 +248,8 @@ ul li{
 
 .user_chat{
     position: relative;
-    margin: 0px 0px 0px auto;
-    width: 50%;
+    margin: 0px -30px 0px auto;
+    width: 45%;
 }
 
 .chatting_write{
