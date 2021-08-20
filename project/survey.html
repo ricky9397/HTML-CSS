@@ -1,80 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="survey.css">
-  <link rel="stylesheet" href="index/index.css">
-  <link rel="stylesheet" href="index/style.css">
-  <script src="../project/index/includeHTML.js"></script>
-  <script src="../project/index/includeRouter.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="survey.css">
+    <link rel="stylesheet" href="index/index.css">
+    <link rel="stylesheet" href="index/style.css">
+    <script src="../project/index/includeHTML.js"></script>
+    <script src="../project/index/includeRouter.js"></script>
 </head>
-
 <body>
-  <!-- Header -->
-  <header include-html="../project/index/header.html"></header>
-  <!-- Header End -->
-  <div id="survey_warp">
-    <div class="survey_box">
-      <form action="#">
-        <div class="survey_box2">
-          <div class="survey_h1">
-            <div class="survey_page">
-              <p><span>01</span> / 05</p>
-            </div>
-            <h1>PT목적은 무엇인가요?</h1>
-          </div>
-          <div class="servey_ul">
-            <ul>
-              <li>
-                <label class="box-radio-input">
-                <input type="radio" name="cp_item" checked="checked">
-                <span>다이어트</span></label>
-              </li>
-              <li>
-                <label class="box-radio-input">
-                <input type="radio" name="cp_item" checked="checked">
-                <span>근력강화</span></label>
-              </li>
-              <li>
-                <label class="box-radio-input">
-                <input type="radio" name="cp_item" checked="checked">
-                <span>체형교정</span></label>
-              </li>
-              <li>
-                <label class="box-radio-input">
-                <input type="radio" name="cp_item" checked="checked">
-                <span>대회준비</span></label>
-              </li>
-              <li>
-                <label class="box-radio-input">
-                <input type="radio" name="cp_item" checked="checked">
-                <span>체중증가</span></label>
-              </li>
-              <li>
-                <label class="box-radio-input">
-                <input type="radio" name="cp_item" checked="checked">
-                <span>바디프로필</span></label>
-              </li>
-            </ul>
-            <div class="next_btn">
-              <input type="button" value="다음">
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
+    <!-- Header -->
+    <header include-html="../project/index/header.html"></header>
+    <!-- Header End -->
+    <!-- Footer -->
+     <header include-html="../project/index/footer.html"></header>
 
-
-
-  <!-- Footer -->
-  <header include-html="../project/index/footer.html"></header>
-
-  <script>
+<script>
     function getDirection() {
       var windowWidth = window.innerWidth;
       var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
@@ -88,7 +32,6 @@
         // do something in the future
       });
     });
-  </script>
+</script>
 </body>
-
 </html>
